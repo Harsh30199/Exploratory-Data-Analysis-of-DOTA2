@@ -1,8 +1,8 @@
-No of Unique Heroes picked :110
-No of Unique Heroes Banned :96
+No of Unique Heroes picked : 110
+No of Unique Heroes Banned : 96
 Most Kills in a match are 108 in Match id 4061952570
-Longest match in Tournament is1 H 21 M 52 S for Match id4063266100
-Shortest match in Tournament is0 H 16 M 59 S for Match id4065268827
+Longest match in Tournament is 1 H 21 M 52 S for Match id 4063266100
+Shortest match in Tournament is 0 H 16 M 59 S for Match id 4065268827
 Match id : 4074821374 Hero name: tiny Total kills 31
 Match id : 4076114893 Hero name: jakiro Total deaths 18
 Match id : 4063289036 Hero name: alchemist Total GPM 1109

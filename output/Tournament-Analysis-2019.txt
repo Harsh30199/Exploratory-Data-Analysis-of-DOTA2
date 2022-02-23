@@ -1,0 +1,8 @@
+No of Unique Heroes picked : 114
+No of Unique Heroes Banned : 92
+Most Kills in a match are 96 in Match id 4968150000
+Longest match in Tournament is 1 H 26 M 29 S for Match id 4971343154
+Shortest match in Tournament is 0 H 15 M 8 S for Match id 4973182943
+Match id : 4968150000 Hero name: storm_spirit Total kills 27
+Match id : 4969319314 Hero name: crystal_maiden Total deaths 17
+Match id : 4969186537 Hero name: alchemist Total GPM 1176

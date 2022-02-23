@@ -1,8 +1,8 @@
-No of Unique Heroes picked :107
-No of Unique Heroes Banned :97
+No of Unique Heroes picked : 107
+No of Unique Heroes Banned : 97
 Most Kills in a match are 104 in Match id 3354219214
-Longest match in Tournament is2 H 8 M 8 S for Match id3356083896
-Shortest match in Tournament is0 H 15 M 12 S for Match id3358044227
+Longest match in Tournament is 2 H 8 M 8 S for Match id 3356083896
+Shortest match in Tournament is 0 H 15 M 12 S for Match id 3358044227
 Match id : 3354219214 Hero name: queenofpain Total kills 25
 Match id : 3354345479 Hero name: pugna Total deaths 20
 Match id : 3357885749 Hero name: alchemist Total GPM 1064

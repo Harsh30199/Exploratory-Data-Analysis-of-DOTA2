@@ -51,7 +51,7 @@ for i in range(1,11):
 
 
 unique_hero,count = np.unique(hero_list,return_counts=True)
-st = 'No of Unique Heroes picked :' + str(len(unique_hero)) + '\n'
+st = 'No of Unique Heroes picked : ' + str(len(unique_hero)) + '\n'
 print(st)
 final.append(st)
 
@@ -75,7 +75,7 @@ for i in range(1,6):
 
 
 unique_ban_hero,ban_count = np.unique(ban_hero_list,return_counts=True)
-st = 'No of Unique Heroes Banned :'+ str(len(unique_ban_hero)) + '\n'
+st = 'No of Unique Heroes Banned : '+ str(len(unique_ban_hero)) + '\n'
 print(st)
 final.append(st)
 
@@ -84,7 +84,7 @@ final.append(st)
 temp_ban = {int(unique_ban_hero[i]) : int(ban_count[i]) for i in range (len(unique_ban_hero)) }
 ban_hero_count = {hero_name[k]: v for k, v in sorted(temp_ban.items(), key=lambda item: item[1], reverse = True)}
 
-print(ban_hero_count)
+(ban_hero_count)
 
 
 # In[69]:
@@ -94,7 +94,7 @@ df2 = df.copy(deep=True)
 df2['Total Kills'] = df2['Radiant_score'] + df2['Dire_score']
 df2 = df2[['Match_id','Radiant_score','Dire_score','Total Kills']]
 most_kills = df2.iloc[df2['Total Kills'].argmax()]
-st = 'Most Kills in a match are' + str(most_kills[3]) + ' in Match id' + str(most_kills[0]) + '\n' 
+st = 'Most Kills in a match are ' + str(most_kills[3]) + ' in Match id '  + str(most_kills[0]) + '\n' 
 print(st)
 final.append(st)
 
@@ -108,7 +108,7 @@ hours = int(longest_duration[1]/3600)
 minutes = int((longest_duration[1] - hours*3600)/60)
 seconds = int(longest_duration[1] - (hours*3600 + minutes*60))
 
-st = 'Longest match in Tournament is' + str(hours) + ' H ' + str(minutes) + ' M '  + str(seconds) + ' S for Match id' + str(longest_duration[0]) + '\n'
+st = 'Longest match in Tournament is ' + str(hours) + ' H ' + str(minutes) + ' M '  + str(seconds) + ' S for Match id ' + str(longest_duration[0]) + '\n'
 final.append(st)
 print(st)
 
@@ -122,7 +122,7 @@ hours = int(longest_duration[1]/3600)
 minutes = int((longest_duration[1] - hours*3600)/60)
 seconds = int(longest_duration[1] - (hours*3600 + minutes*60))
 
-st = 'Shortest match in Tournament is' + str(hours) + ' H ' + str(minutes) + ' M ' + str(seconds) + ' S for Match id' + str(longest_duration[0]) + '\n'
+st = 'Shortest match in Tournament is ' + str(hours) + ' H ' + str(minutes) + ' M ' + str(seconds) + ' S for Match id ' + str(longest_duration[0]) + '\n'
 final.append(st)
 print(st)
 

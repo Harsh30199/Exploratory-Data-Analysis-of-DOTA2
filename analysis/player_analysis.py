@@ -124,7 +124,7 @@ for year in yearList:
 #                                             most_gpm[i][0], most_gpm[i][1], highest_gpm_avg[i][0],
 #                                             highest_gpm_avg[i][1]]
     
-    df.to_csv('../output/'+str(year)+'_most_highest.csv', index = False)
+    df.to_csv('../output/player-analysis'+ str(year) +'.csv', index = False)
 
 
 # In[ ]:

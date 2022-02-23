@@ -55,7 +55,7 @@ len(hero_list)
 
 unique_hero,count = np.unique(hero_list,return_counts=True)
 
-st = 'No of Unique Heroes picked :' + str(len(unique_hero)) + '\n'
+st = 'No of Unique Heroes picked : ' + str(len(unique_hero)) + '\n'
 print(st)
 final.append(st)
 
@@ -82,16 +82,16 @@ len(ban_hero_list)
 unique_ban_hero,ban_count = np.unique(ban_hero_list,return_counts=True)
 
 
-st = 'No of Unique Heroes Banned :'+ str(len(unique_ban_hero)) + '\n'
+st = 'No of Unique Heroes Banned : '+ str(len(unique_ban_hero)) + '\n'
 print(st)
-final.append(st)
 
 
 temp_ban = {int(unique_ban_hero[i]) : int(ban_count[i]) for i in range (len(unique_ban_hero)) }
 ban_hero_count = {hero_name[k]: v for k, v in sorted(temp_ban.items(), key=lambda item: item[1], reverse = True) if k!=0}
 
-print('No of Unique Heroes Banned :',len(ban_hero_count),end='\n\n')
-print(ban_hero_count)
+st = 'No of Unique Heroes Banned : ' + str(len(ban_hero_count)) + '\n'
+final.append(st)
+
 
 
 # In[37]:
@@ -101,7 +101,10 @@ df2 = df.copy(deep=True)
 df2['Total Kills'] = df2['Radiant_score'] + df2['Dire_score']
 df2 = df2[['Match_id','Radiant_score','Dire_score','Total Kills']]
 most_kills = df2.iloc[df2['Total Kills'].argmax()]
-print('Most Kills in a match are',most_kills[3],'in Match id',most_kills[0])
+
+
+st = 'Most Kills in a match are ' + str(most_kills[3]) + ' in Match id ' + str(most_kills[0]) + '\n'
+final.append(st)
 
 
 # In[38]:
@@ -113,7 +116,7 @@ hours = int(longest_duration[1]/3600)
 minutes = int((longest_duration[1] - hours*3600)/60)
 seconds = int(longest_duration[1] - (hours*3600 + minutes*60))
 
-st = 'Longest match in Tournament is' + str(hours) + ' H ' + str(minutes) + ' M '  + str(seconds) + ' S for Match id' + str(longest_duration[0]) + '\n'
+st = 'Longest match in Tournament is ' + str(hours) + ' H ' + str(minutes) + ' M '  + str(seconds) + ' S for Match id ' + str(longest_duration[0]) + '\n'
 final.append(st)
 print(st)
 
@@ -127,7 +130,7 @@ hours = int(longest_duration[1]/3600)
 minutes = int((longest_duration[1] - hours*3600)/60)
 seconds = int(longest_duration[1] - (hours*3600 + minutes*60))
 
-st = 'Shortest match in Tournament is' + str(hours) + ' H ' + str(minutes) + ' M ' + str(seconds) + ' S for Match id' + str(longest_duration[0]) + '\n'
+st = 'Shortest match in Tournament is ' + str(hours) + ' H ' + str(minutes) + ' M ' + str(seconds) + ' S for Match id ' + str(longest_duration[0]) + '\n'
 final.append(st)
 print(st)
 
@@ -178,7 +181,7 @@ print(st)
 # In[ ]:
 
 
-file1 = open('../output/Tournament-Analysis-2021.txt','w')
+file1 = open('../output/Tournament-Analysis-2019.txt','w')
 file1.writelines(final)
 file1.close()
 

@@ -1,8 +1,8 @@
-No of Unique Heroes picked :113
-No of Unique Heroes Banned :105
+No of Unique Heroes picked : 113
+No of Unique Heroes Banned : 105
 Most Kills in a match are 89 in Match id 6213067601
-Longest match in Tournament is1 H 4 M 42 S for Match id6213685234
-Shortest match in Tournament is0 H 17 M 5 S for Match id6216526891
+Longest match in Tournament is 1 H 4 M 42 S for Match id 6213685234
+Shortest match in Tournament is 0 H 17 M 5 S for Match id 6216526891
 Match id : 6213067601 Hero name: dawnbreaker Total kills 27
 Match id : 6215317749 Hero name: ogre_magi Total deaths 17
 Match id : 6215226977 Hero name: luna Total GPM 973
